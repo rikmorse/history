@@ -1,0 +1,72 @@
+/* ********************* Reset all styles ******************* */
+
+body, .container, h1, .navigation ul, .navigation li {
+	margin: 0;
+	padding: 0;
+}
+
+/* ********************* background picture ***************** */
+
+body {
+	background-image: url("img/reno.jpeg");
+	background-color: lightblue;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+/* *************** Container = Page content hodler *********** */
+.container {
+	width: 95%;
+}
+
+/* ************************* Title of Page ******************* */
+
+h1 {
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+
+/* ************************* Navigation Bar ******************* */
+
+.navigation {
+	text-align: center;
+	width: 5em;
+	padding-left: 2%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li a {
+	display: block;
+	color: black;
+	background-color: lightblue;
+	text-align: center;
+	text-decoration: none;
+	border: 2px solid blue;
+	padding: 0 0 0 0;
+	margin-bottom: 2%;
+}
+
+li a:hover {
+	color: white;
+	background-color: blue;
+	border: 2px solid lightblue;
+}
+
+/* ********************** Form Page styling ********************* */
+
+article {
+	margin-left: 2%;
+	margin-top: 3%;
+	background-color: lightblue;
+	border: 2px solid blue;
+	width: 15%;
+}
+
+
+
+
+

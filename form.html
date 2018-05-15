@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1 title="Tours of the Reno Area about the History of our City!">Reno Historical Tours</h1>
+			<nav class="navigation">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="tour.html">Tours</a></li>
+					<li><a href="faq.html">FAQ</a></li>
+					<li><a href="form.html">Sign Up</a></li>
+					<li><a href="about.html">About</a></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+	<article>
+		<form class="ageGroup">
+			<input type="radio" name="ageRange" value="Under 18" onclick="range(this)"> Under 18<br>
+			<input type="radio" name="ageRange" value="18 to 25" onclick="range(this)"> 18 to 25<br>
+			<input type="radio" name="ageRange" value="26 to 35" onclick="range(this)"> 26 to 35<br>
+			<input type="radio" name="ageRange" value="36 to 45" onclick="range(this)"> 36 to 45<br>
+			<input type="radio" name="ageRange" value="46 to 55" onclick="range(this)"> 46 to 55<br>
+			<input type="radio" name="ageRange" value="Older than 55" onclick="range(this)"> Older than 55
+		</form>
+	</article>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
